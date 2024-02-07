@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#navbar {
+    background-color: black;
+    width: 100vw;
+    height: 30vh;
+    border-bottom: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/IMG/BACK-BLACK-RED.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#navbar h1 {
+    color: white;
+    font-size: 40px;
+    margin: 5px;
+}
+
+#navbar img {
+    width: 11%;
+    height: 80%;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+}
+
+.midias {
+    display: flex;
+    background-color: black;
+    padding: 13px;
+    justify-content: space-evenly;
+    border-bottom: 2px solid red;
+    width: 100vw;
+}
+
+.midias a {
+    display: flex;
+    padding: 5px;
+    width: 3%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.midias a:hover {
+    box-shadow: 1px 1px 1px 3px red;
+    transition: all 0.2s ease-out;
+}
+
+svg {
+    width: 38px;
+}
+
+.container-sobre {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid red;
+    height: 40%;
+}
+
+.sobre,
+.tecnologias {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    box-shadow: 0px 0px 1px 2px red;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.tecnologias:hover {
+    transition: all 0.9s ease-out;
+    box-shadow: 8px 8px 2px 2px red;
+}
+
+.sobre:hover {
+    transition: all 0.9s ease-out;
+    box-shadow: 8px 8px 2px 2px red;
+}
+
+.sobre h2 {
+    font-size: 30px;
+}
+
+.sobre p {
+    padding: 58px 10px;
+    font-size: 20px;
+}
+
+.tecnologias h2 {
+    font-size: 30px;
+}
+
+#div-tec {
+    flex-wrap: wrap;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90%;
+    height: 228px;
+}
+
+.container-projetos {
+    background-color: black;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    border-bottom: 2px solid red;
+}
+
+.container-projetos button {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    height: 10%;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.container-projetos button:hover {
+    transition: all 0.5s ease;
+    background-color: red;
+    color: black;
+    border: 1px solid red;
+}
+
+.projeto-one,
+.projeto-two {
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    box-shadow: 0px 0px 1px 2px red;
+    height: 85%;
+    width: 25%;
+}
+
+.projeto-one:hover {
+    transition: all 0.9s ease-out;
+    box-shadow: -8px 8px 2px 2px red;
+}
+
+.projeto-two:hover {
+    transition: all 0.9s ease-out;
+    box-shadow: -8px 8px 2px 2px red;
+}
+
+span {
+    font-size: 40px;
+}
+
+footer {
+    background-color: black;
+    border-bottom: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer span {
+    color: red;
+    padding: 15px;
+    font-size: 15px;
+
+}
+
+footer strong:hover {
+    color: white;
+    transition: all 0.4s ease;
+}
+
+@media screen and (max-width: 800px) {
+
+    footer {
+        height: 20vh;
+    }
+
+    #navbar img {
+        width: 30%;
+    }
+
+    #navbar h2 {
+        margin-bottom: 10px;
+    }
+
+    .midias {
+        display: none;
+    }
+
+    .container-sobre {
+        flex-direction: column;
+    }
+
+    .sobre {
+        width: 80%;
+    }
+
+    .tecnologias {
+        width: 80%;
+    }
+
+    .container-projetos {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .projeto-one {
+        width: 80%;
+    }
+
+    .projeto-two {
+        width: 80%;
+    }
+}
