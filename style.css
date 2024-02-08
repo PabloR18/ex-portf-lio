@@ -13,7 +13,7 @@ body {
 }
 
 #navbar {
-    background-color: black;
+    background-color: white;
     width: 100vw;
     height: 30vh;
     border-bottom: 2px solid red;
@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(/IMG/BACK-BLACK-RED.webp);
+    background-image: url(IMG/BACK-BLACK-RED.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
