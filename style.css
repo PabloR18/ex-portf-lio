@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(IMG/BACK-BLACK-RED.webp);
+    background-image: url(/IMG/BACK-BLACK-RED.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
